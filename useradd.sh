@@ -2,12 +2,12 @@
 
 echo "---user adding----"
 
-sudo useradd hyd
+sudo useradd blr
 
 
 echo "---set passowrd for a user----"
 
-sudo echo "saro123" | passwd --stdin hyd
+sudo echo "saro123" | passwd --stdin blr
 
 
 echo "---ssh modification-----"
@@ -23,7 +23,7 @@ echo "##adding sudo access#####"
 
 echo " " >> /etc/sudoers
 
-echo "hyd       ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
+echo "blr       ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
 
 echo " " >> /etc/sudoers
 
